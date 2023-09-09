@@ -61,6 +61,12 @@ var (
 			TranscriberCode:  "es-ES",
 			SynthesizerModel: "es-ES-Wavenet-B",
 		},
+		"ja-JP": {
+			Code:             "ja-JP",
+			Label:            "Japanese",
+			TranscriberCode:  "ja-JP",
+			SynthesizerModel: "ja-JP-Neural2-B",
+		},
 	}
 	DefaultLanguage = Languages["en-US"]
 )
